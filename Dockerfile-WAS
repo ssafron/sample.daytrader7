@@ -1,0 +1,9 @@
+FROM ibmcom/websphere-traditional:latest-ubi
+
+COPY --chown=1001:0 . /home/was/daytrader7/
+# Running the daytrader configuration doesn't work because the password file (/tmp/PASSWORD) is not found 
+# (probably because WebSphere has not yet been run and has not created it yet.
+#RUN cd /home/was/daytrader7/scripts; wsadmin.sh -f daytrader_SILENT_singleServer.py -user wsadmin -password `cat /tmp/PASSWORD`
+#RUN cd /home/was/daytrader7/scripts; wsadmin.sh -f daytrader_SILENT_singleServer.py -user wsadmin
+
+

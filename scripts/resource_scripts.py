@@ -1,6 +1,6 @@
 import sys
 import re
-import sre
+#import sre
 global AdminConfig
 
 #-----------------------------------------------------------------

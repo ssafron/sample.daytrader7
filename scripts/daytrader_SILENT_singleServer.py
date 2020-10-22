@@ -114,8 +114,10 @@ DeployOptions =   ["DB2UDB_V82","DB2UDBOS390_V8","DB2UDBISERIES_V54","DERBY_V10"
 # NOTE: This should NOT be modified!!!
 #---------------------------------------------------------------------
 
-DefaultTradeAppName = "DayTrader3"
-DefaultEarFile =      "daytrader3.0.5-ee6-src.ear"
+#DefaultTradeAppName = "DayTrader3"
+#DefaultEarFile =      "daytrader3.0.5-ee6-src.ear"
+DefaultTradeAppName = "DayTrader7"
+DefaultEarFile =      "../daytrader-ee7/build/libs/daytrader-ee7.ear"
 
 # Deployment options
 DefaultRunEJBDeploy = "false"
